@@ -1,0 +1,274 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  src: local('SF Pro Display'), url(http://hok.homeftp.org/fonts/SFPRODISPLAYREGULAR.OTF) format('woff2');
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 300;
+  src: local('SF Pro Display'), url(http://hok.homeftp.org/fonts/SFPRODISPLAYREGULAR.OTF) format('woff2');
+}
+h1, .leftframe > div:nth-of-type(1) { font-family: 'SF Pro Display', 'SF Pro'; }
+body, form, label, .songTitle, table, a { font-family: 'SF Pro Display', 'SF Pro'; }
+body { font-size: 13px; }
+
+.songTitle {
+    font-style: normal;
+    font-size: 12px;
+}
+
+#play, #pause, #buffer {
+    font-size: 24px;
+    color: #50fa7b;
+}
+
+body, form, label, .songTitle, table, a {
+    font-family: 'SF Pro Display', 'SF Pro';
+}
+
+input, textarea, select {
+    font-size: 15px;
+    color: #282a36;
+    padding: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 18px;
+    border: 1px solid #ffffff;
+    font-family: 'SF Pro Display', 'SF Pro';
+}
+
+
+.fa-navicon::before, .fa-reorder::before, .fa-bars::before
+{
+
+    content: "\2261";
+    font-size: 150%;
+
+}
+
+.fa-th-large::before {
+    content: "\25A0";
+    font-size: 150%;
+}
+.fa fa-bars fa-lg icon {
+    font-size: 20px;
+}
+.header, .header a, .headerSelected, .headerSelected a {
+    padding-left: 0.35em;
+    padding-right: 0.35em;
+    font-weight: 600;
+    font-size: 90%;
+    white-space: nowrap;
+    text-transform: uppercase;
+    
+}
+
+.header, .header a, .headerSelected, .headerSelected a {
+   
+    font-family: 'SF Pro Display', 'SF Pro';
+}
+
+h2, h2 a {
+    font-family: 'SF Pro Display', 'SF Pro', arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    
+}
+
+/*font and icon colors*/
+.bgcolor2, .ruleTableHeader, .log, 
+table.music tr:nth-of-type(odd) , table.music tr:nth-of-type(even), 
+.headerSelected, h1, .detail, .icon, h2, b, tr, 
+.albumComment, .coverart, .coverart .caption2, .coverart .caption3 
+{ color: inherit; }
+
+.ellipsis {color: #01e6f1;}
+
+a {
+    font-size: 115%;
+}
+
+body, body.bgcolor2 { color: #cdd1dc; }
+
+a:link, a:active, a:visited, a:link *, a:active *, a:visited *, 
+h2 a, .coverart .caption1 a:link, .coverart .caption1 a:visited 
+{ color: #ff79c6; } 
+
+.icon { 
+color: #bd93f9;
+font-size: 120%;
+      
+      } 
+.warning { color: #ff79c6; }
+
+/*background colors*/
+html, body, .bgcolor1, .mainframe, table.music tr:nth-of-type(even)
+{
+    background: #282a36;
+}
+.bgcolor2, .ruleTableHeader, .log, #left, #right, body.rightframe, body.playslistframe
+{
+    background: #282a36;
+}
+#upper, #playQueue, body.topframe, .playlistframe > div:nth-of-type(1)
+{
+    background: #282a36;
+}
+table.music tr:nth-of-type(odd)
+{
+    background: rgba(68,71,90,.5);
+}
+.top-menu-item:hover, .left-menu-item:hover
+{
+    background: rgba(68,71,90,.5);
+}
+::-webkit-scrollbar-thumb { background: rgba(126, 135, 160, .4); }
+
+.detail {color: #f1fa8c;
+         font-size:12px;}
+
+/*tab headers*/
+.header, .headerSelected { display: inline-block; }
+.header:hover
+{
+    background: rgba(0,0,0,.1);
+}
+.header:hover a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.headerSelected 
+{ 
+    border: none; 
+    background:   #b24382;  ;
+}
+.header a, .headerSelected a 
+{ 
+    padding: 6px 5px; 
+    line-height: 1.7em; 
+}
+.headerSelected a
+{
+    color: #fff;
+    font-weight: bold;
+}
+
+
+   
+
+/*album and playlist cover art*/
+.albumthumb 
+{
+    padding: 0; 
+    margin: 0 20px 30px 0;
+}
+.coverart .material-icons { color: rgba(0,0,0,1); }
+.coverart, .coverart:hover
+{
+    background: transparent;
+    box-shadow: none;
+}
+.coverart img, #coverArt
+{
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.coverart img:hover, #coverArt:hover 
+{
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.coverart .caption1, .coverart .caption2, .coverart .caption3
+{
+    padding: 0;
+    line-height: 1.5em;
+    color: #01e6f1;
+}
+.coverart .caption1 { margin-top: 5px; }
+.coverart .caption3 { opacity: .7; }
+
+/*player*/
+#playQueue { border-top: 5px solid #50fa7b; }
+body.playlistframe
+{
+    margin: 0;
+    padding: 10px;
+}
+
+
+.playlistframe > div:nth-of-type(1)
+{
+    width: calc(100% - 20px) !important;
+    margin: 0 -10px;
+    padding: 0 10px;
+}
+.playlistframe > div:nth-of-type(2) { margin-top: 0 !important; }
+.playlistframe > div:nth-of-type(1) > div:nth-of-type(1) { margin-top: 7px !important; }
+#progress
+{
+    background: rgba(0,0,0,.1) !important;
+    height: 12px;
+    
+    
+    
+}
+#progress:after
+{
+    content: '';
+    display: block;
+    height: 5px; width: 100%; 
+    background: rgba(0,0,0,.1);
+    border-radius: 6px;
+    
+}
+
+.songTitle {color: #01e6f1;}
+
+.ui-slider-range-min {background: #ff79c6;} 
+#startButton, #stopButton, #playButton, #bufferButton  {color: #50fa7b;}
+
+#volume 
+{
+    background: rgba(0,0,0,.2);
+    height: 12px;
+    border-radius: 6px;
+}
+#progress .ui-slider-handle, #volume .ui-slider-handle
+{
+    border-radius: 6px;
+    top: 50%;
+    margin-top: -6px;
+    
+}
+
+.ui-slider .ui-slider-handle {background: #50fa7b;}
+
+
+.fa-inverse { color: #ff79c6;, font-weight: bold; }
+
+/*sidebars*/
+body.leftframe, body.rightframe
+{
+    margin: 0;
+    padding: 10px;
+}
+.left-index-title 
+{ 
+    background: rgba(0,0,0,.2); 
+    padding: 2px 5px;
+    margin: 1.5em -5px 0 -5px;
+}
+    
+/*sidebar alphabet jump list*/
+.leftframe .bgcolor2 
+{ 
+    width: auto !important; 
+border-top-color: #101523 !important; 
+}
