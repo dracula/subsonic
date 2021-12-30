@@ -2,13 +2,13 @@
   font-family: 'SF Pro Display';
   font-style: normal;
   font-weight: 700;
-  src: local('SF Pro Display'), url(http://hok.homeftp.org/fonts/SFPRODISPLAYREGULAR.OTF) format('woff2');
+  src: local('SF Pro Display'), url(https://github.com/octaviz/drakula/raw/main/SFPRODISPLAYREGULAR.OTF) format('woff2');
 }
 @font-face {
   font-family: 'SF Pro Display';
   font-style: normal;
   font-weight: 300;
-  src: local('SF Pro Display'), url(http://hok.homeftp.org/fonts/SFPRODISPLAYREGULAR.OTF) format('woff2');
+  src: local('SF Pro Display'), url(https://github.com/octaviz/drakula/raw/main/SFPRODISPLAYREGULAR.OTF) format('woff2');
 }
 h1, .leftframe > div:nth-of-type(1) { font-family: 'SF Pro Display', 'SF Pro'; }
 body, form, label, .songTitle, table, a { font-family: 'SF Pro Display', 'SF Pro'; }
