@@ -1,17 +1,31 @@
-# subsonic-dracula-theme
-Theme for Subsonic, based colors Dracula Theme https://draculatheme.com/
+# Dracula for [Subsonic](https://www.subsonic.org)
 
-For Subsonic Server 6.16
+> A dark theme for [Subsonic](https://www.subsonic.org).
 
-![Screenshot_4](https://github.com/octaviz/subsonic-dracula-theme/assets/856579/0627d4fd-a176-473b-a9fe-ec5536eeea4d)
+![Screenshot](./screenshot.png)
 
-# Install
+## Install
 
-To install it you have 2 options:
+All instructions can be found at [draculatheme.com/subsonic](https://draculatheme.com/subsonic).
 
-1- Modifying the content of any theme you want on the server, you will have to access via SSH or through the folders.
+## Team
 
-2- The best way is using "Stylus - Userstyles Manager".
-        https://github.com/openstyles/stylus and add code.
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/subsonic/graphs/contributors).
 
+| [![Hok Deejay](https://github.com/octaviz.png?size=100)](https://github.com/octaviz) |
+| ------------------------------------------------------------------------------------ |
+| [Hok Deejay](https://github.com/octaviz)                                             |
 
+## Community
+
+- [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
+- [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
+- [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+
+## Dracula PRO
+
+[![Dracula PRO](./.github/dracula-pro.png)](https://draculatheme.com/pro)
+
+## License
+
+[MIT License](./LICENSE)
