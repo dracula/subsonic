@@ -17,4 +17,4 @@ Download using the [GitHub `.zip` download](https://github.com/dracula/subsonic/
 To activate the theme, you have two options:
 
 - Access the server via SSH or the folders to modify the content of any theme you want;
-- Or use a tool like: **Stylus - Userstyles Manager** and add the styles from [`dracula-theme.css`](https://github.com/dracula/subsonic/dracula-theme.css).
+- Or use a tool like: **Stylus - Userstyles Manager** and add the styles from [`dracula-theme.css`](https://raw.githubusercontent.com/dracula/subsonic/main/dracula-theme.css).
